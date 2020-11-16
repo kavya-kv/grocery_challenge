@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+   <style>
+       body{
+           background-image:url(./grocery.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           font-weight:12px;
+       }
+       h1{
+           text-align:center;
+           text-transform: uppercase;
+           font-weight: bold;
+           color:black;
+       }
+      table{
+          
+          margin-left:23%;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+       table,th,td{
+           border:1px solid #ddd;
+           border-collapse: collapse;
+           
+       }
+       
+       tr:nth-child(even){
+           background-color: #c7e5c3;
+       }
+       tr:nth-child(odd){
+           background-color: #aad8a6;
+       }
+       th{
+           height:50px;
+           background-color:darksalmon;
+           color:white;
+           
+       }
+       th,td{
+           padding:15px;
+           border-bottom: 1px solid #ddd;
+           border-left:1px solid #ddd ;
+       }
+    </style>
+</head>
+<body>
+    <h1>Grocery list</h1>
+    <table id="demo">
+    </table>
+    <br>
+    <script src="ajax.js"></script>
+</body>
+</html>

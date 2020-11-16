@@ -1,0 +1,88 @@
+{
+    "products" : [
+        {
+            "serialno" : 1,
+            "name" : "milk",
+            "quantity" : 4,
+            "unit" : "gallon",
+            "department" : "dairy products",
+            "notes" : "full cream milk"
+
+        },
+        {
+            "serialno": 2,
+            "name" : "bread",
+            "quantity" : 5,
+            "unit" : "slices",
+            "department" : "canned goods",
+            "notes" : "fresh baked bread"
+        },
+        {
+            "serialno" : 3,
+            "name" : "laundry detergent",
+            "quantity" : 2,
+            "unit" : "loads",
+            "department" : "cleaning",
+            "notes" : "homemade laundry detergent"
+        },
+        {
+            "serialno": 4,
+            "name" : "flour",
+            "quantity" : 6,
+            "unit" : "lbs",
+            "department": "baking",
+            "notes" : "all purpose flour"
+        },
+        {
+            "serialno": 5,
+            "name" : "chicken",
+            "quantity" : 1,
+            "unit" : "lbs",
+            "department" : "meat",
+            "notes" : "whole chicken"
+        },
+        {
+            "serialno": 6,
+            "name" : "sugar",
+            "quantity" : 1,
+            "unit" : "kg",
+            "department" : "food",
+            "notes" : "none"
+        },
+        {
+            "serialno": 7,
+            "name" : "soap",
+            "quantity" : 8,
+            "unit" : "bar",
+            "department" : "beauty",
+            "notes" : "pears"
+        },
+        {
+            "serialno": 8,
+            "name" : "tomatoes",
+            "quantity" : 1,
+            "unit" : "kg",
+            "department" : "food",
+            "notes" : "fresh vegetable"
+        },
+
+        {
+            "serialno": 9,
+            "name" : "coconut oil",
+            "quantity" : 4,
+            "unit" : "l",
+            "department" : "food",
+            "notes" : "natural oil"
+        },
+
+        {
+            "serialno": 10,
+            "name" : "shampoo",
+            "quantity" : 2,
+            "unit" : "pack",
+            "department" : "beauty",
+            "notes" : "dove"
+        }
+
+    ]
+}
